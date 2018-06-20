@@ -1,0 +1,37 @@
+{
+  "name": "min-console",
+  "version": "0.0.1",
+  "description": "让H5调试, 看到 console 打印",
+  "main": "src/index.js",
+  "scripts": {
+    "release": "webpack",
+    "example": "http-server -p 8888"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/min-console/min-console.git"
+  },
+  "keywords": [
+    "H5",
+    "console"
+  ],
+  "author": "https://github.com/min-console",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/min-console/min-console/issues"
+  },
+  "homepage": "https://github.com/min-console/min-console#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "http-server": "^0.11.1",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "user": "0.0.0"
+  }
+}
